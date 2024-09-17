@@ -1,0 +1,263 @@
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 6%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration:none; 
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration:underline;
+  }
+
+.fundo {
+    background-image: url(https://elestoque.org/wp-content/uploads/2024/03/eternalsunshine.jpeg);
+    background-size: cover;
+    height: 100vh;
+    width: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+h3 {
+    color: white;
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 40vh;
+    top: 35vh;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 40vh;
+    top: 30vh;
+}
+a h5{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 40vh;
+    top: 31vh;
+    width: 11%;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    justify-items: center;
+}
+
+
+.tour{
+    width: 80%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 15%;
+    position: relative;
+
+}
+
+.data1, .data2, .data3, .data4{
+    width: 60%;
+    height: 55vh;
+    left: 10%;
+    text-align:left;
+    background-size: cover;
+    background-position:20%;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+.data1:hover{
+    background-image:radial-gradient(circle, rgba(0, 0, 0, 0.8), transparent), url(https://i.pinimg.com/564x/e0/a6/f4/e0a6f4b34c507d33aca43b0c0ca59bc4.jpg);
+}
+.data2:hover{
+    background-image:radial-gradient(circle, rgba(0, 0, 0, 0.7), transparent), url(https://i.pinimg.com/564x/e6/00/e7/e600e7541790c0ec7b600edecfa0a95c.jpg);
+}
+.data3:hover{
+    background-image:radial-gradient(circle, rgba(0, 0, 0, 0.7), transparent), url(https://i.pinimg.com/564x/c1/77/b9/c177b96a17284048f7650e3407e722d6.jpg);
+}
+.data4:hover{
+    background-image:radial-gradient(circle, rgba(0, 0, 0, 0.7), transparent), url(https://www.geo.tv/assets/uploads/updates/2024-06-08/548224_1619584_updates.jpg);
+}
+
+.tour p{
+    color: white;
+    font-size: 30px;
+    padding: 5px 10px;
+    font-weight:200;
+    text-decoration: underline;
+}
+
+
+.music a{
+    display: flex;
+    width: 20%;
+    height: 45vh;
+    position: relative;
+    margin-top: 10%;
+    left: 6%;
+    
+}
+.music img{
+    border-radius: 8px
+}
+
+.music .text{
+    color: white;
+    width: 20%;
+    height: 10vh;
+    position: relative;
+    margin-top: 32%;
+    display: flex;
+    right: 10%;
+    font-weight: 600;
+}
+
+.music{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+ h2{
+    position: relative;
+    left: 15%;
+    color: white;
+}
+
+.bio{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+}
+
+.bio img{
+    display: flex;
+    width: 20%;
+    height: 40vh;
+    position: relative;
+    margin-top: 10%;
+    margin-left:0;
+    border-radius: 8px;
+}
+
+.bio p{
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    font-weight:200;
+    text-align: center;
+    position: relative;
+    top: 24%;
+    width: 25%;
+
+}
+
+
+.signup{
+    background-image: url(https://i.pinimg.com/736x/87/bd/6b/87bd6b0f9c4cc3342fcd283865fbe7a2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 55%;
+    height: 60vh;
+    align-items: center;
+    top: 65px;
+    left: 23%;
+    position: relative;
+    border-radius: 20px;
+    background-size: cover;
+    border: 0 2px;
+    border-color: white;
+}
+.signup h1{
+    color: white;
+    text-align:center;
+    font-size: 35px;
+}
+.signup p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+label{
+    color: white;
+    font-weight: 500;
+}
+
+input{
+    background-color:rgb(255, 255, 255);
+    border-color: white;
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+}
+
+footer i{
+    color: white;
+    justify-content: center;
+}
+
+footer i:hover{
+    color: #333;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer li{
+    margin-left: 12px;
+    position: relative;
+    left: 25vh;
+}
+
+footer p{
+    color: white;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    top: 6vh;
+    right: 9%;
+    margin-left: 40px;
+}
